@@ -48,7 +48,9 @@ export default {
   },
   components: {},
   mounted() {
-    this.getLatestProducts();
+    this.getLatestProducts()
+
+    document.title = 'Home | SOFA'
   },
   methods: {
     async getLatestProducts() {
