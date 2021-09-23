@@ -93,6 +93,7 @@ export default {
     } else {
         axios.defaults.headers.common['Authorization'] = ""
     }
+    
   },
    mounted() {
     this.cart = this.$store.state.cart;
